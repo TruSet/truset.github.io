@@ -1,8 +1,8 @@
 ## TruSet developer resources
 
-[Truset.com](truset.com) is an application that incentivizes accurate collection of data.  It runs on a distributed ledger and allows people to directly collaborate on data accuracy by connecting to the ethereum blockchain.
+[Truset.com](https://truset.com) is an application that incentivizes accurate collection of data.  It runs on a distributed ledger and allows people to directly collaborate on data accuracy by connecting to the ethereum blockchain.
 
-TruSet has a few different data collection communities, for example - we gather data on [tokens](tokens-beta.truset.com) and [real estate](realestate.truset.com).  These deployments are quite similar and mostly differ by the data model relevant to the data records.
+TruSet has a few different data collection communities, for example - we gather data on [tokens](https://tokens-beta.truset.com) and [real estate](https://realestate.truset.com).  These deployments are quite similar and mostly differ by the data model relevant to the data records.
 
 This site is intended as a developer reference for our application, to showcase our open source work and give you an introduction to how our platform works, and how you might integrate with it.  If you are interested in working with us - get in touch!
 
