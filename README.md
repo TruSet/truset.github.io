@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+## TruSet developer resources
 
-You can use the [editor on GitHub](https://github.com/TruSet/truset.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[Truset.com](truset.com) is an application that incentivizes accurate collection of data.  It runs on a distributed ledger and allows people to directly collaborate on data accuracy by connecting to the ethereum blockchain.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+TruSet has a few different data collection communities, for example - we gather data on [tokens](tokens-beta.truset.com) and [real estate](realestate.truset.com).  These deployments are quite similar and mostly differ by the data model relevant to the data records.
 
-### Markdown
+This site is intended as a developer reference for our application, to showcase our open source work and give you an introduction to how our platform works, and how you might integrate with it.  If you are interested in working with us - get in touch!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Open Source
 
-```markdown
-Syntax highlighted code block
+We have open sourced a few aspects of our application that we believe would be useful to other people developing apps on ethereum.
 
-# Header 1
-## Header 2
-### Header 3
+- [Role based Access Control](https://truset.github.io/bitmask-rbac/) Our role based access control (rbac) compactly manages the different roles that a user (or smart contract) might have in a family of smart contracts - allowing you to limit which functions can be called by which ethereum accounts.  Also provide a reference implementation of a [rbac interface](https://truset.github.io/bitmask-rbac/portal/) for viewing and managing the users in an rbac.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TruSet/truset.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- [Commit Reveal voting](https://github.com/truset/commit-reveal-voting/) Our application allows people to cast votes on the accuracy data that are later tallied to determine what data should be validated, and how rewards will be distributed.  Because blockchains are inherently public and we don't want people to bias their votes based on how other people vote, we needed a scheme wherein people could commit their votes - keeping the vote secret - and then later reveal them.
