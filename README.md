@@ -21,13 +21,11 @@ TruSet captures data by deploying a smart contract per data record (ie token dat
 
 The smart contract address is thus the unique id for referencing a data record.
 
-For instance, this api url has data on the Maker token
+For instance, this api url has data on the Maker token, `0x2Cb7E2...` is the TruSet smart contract for the data collection
 
 http://tokens-beta-api.truset.com/api/v0.1/data/0x2Cb7E247c4691D35D6C47771f99D09deEb2b7f04 
 
-where `0x2Cb7E2...` is the TruSet smart contract for the data collection
-
-And this would be the url for react app
+And this would be the corresponding url for viewing the data on the react app (dApp)
 
 https://tokens-beta.truset.com/data/0x2Cb7E247c4691D35D6C47771f99D09deEb2b7f04
 
